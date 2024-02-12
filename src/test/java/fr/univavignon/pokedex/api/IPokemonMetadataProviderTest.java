@@ -23,7 +23,7 @@ public class IPokemonMetadataProviderTest {
 
     @Test
     void shouldReturnBulbizarreWhen0() throws PokedexException {
-        assertEquals(1, pokemonMetadataProvider.getPokemonMetadata(0).getIndex());
+        assertEquals(0, pokemonMetadataProvider.getPokemonMetadata(0).getIndex());
     }
 
 }
