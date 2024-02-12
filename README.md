@@ -1,5 +1,10 @@
 # UCE Génie Logiciel Avancé : Techniques de tests
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 4aae84c3c19b6153885e092fdc3b19bd4414d06f
 ## Grenier Sébastien - ILSEN Classique
 
 ## Introduction
