@@ -18,8 +18,9 @@ public abstract class IPokemonFactoryTest {
     }
 
     @Test
-    void shouldReturn64When0() throws PokedexException {
-        assertEquals(64, pokemonFactory.createPokemon(0, 613, -510, 4000, 4).getHp());
+    void shouldReturnErreurWhenNegatif() throws PokedexException {
+        when(pokemonFactory.createPokemon(0, 613, -510, 4000, 4).getHp()).thenThrow(new PokedexException("Erreur négatif"));
+        PokemonMetadata pokemonMetadata = pokemonFactory.createPokemon(0, 613, -510, 4000, 4);
     }
 
 }
