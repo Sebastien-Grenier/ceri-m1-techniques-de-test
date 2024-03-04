@@ -19,7 +19,7 @@ public abstract class IPokemonFactoryTest {
 
     @Test
     void shouldReturn64When0() throws PokedexException {
-        assertEquals(64, pokemonFactory.createPokemon(0, 613, -500, 4000, 4).getHp());
+        assertEquals(64, pokemonFactory.createPokemon(0, 613, -510, 4000, 4).getHp());
     }
 
 }
