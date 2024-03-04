@@ -23,4 +23,9 @@ public abstract class IPokemonFactoryTest {
         PokemonMetadata pokemonMetadata = pokemonFactory.createPokemon(0, 613, -510, 4000, 4);
     }
 
+    @Test
+    void shouldReturnSuccessWhen64() throws PokedexException {
+        assertEquals(64, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getHp());
+    }
+
 }
