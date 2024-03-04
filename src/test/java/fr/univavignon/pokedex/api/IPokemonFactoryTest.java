@@ -23,7 +23,8 @@ public abstract class IPokemonFactoryTest {
     @Test
     void shouldReturnErreurWhenNegatif() throws PokedexException {
         when(pokemonFactory.createPokemon(0, 613, -510, 4000, 4).getHp()).thenThrow(new PokedexException("Erreur négatif"));
-        PokemonMetadata pokemonMetadata = pokemonFactory.createPokemon(0, 613, -510, 4000, 4);
+        IPokemonFactory pokemonFactory = null;
+        pokemonFactory.createPokemon(0, 613, -510, 4000, 4);
     }
 
     @Test
