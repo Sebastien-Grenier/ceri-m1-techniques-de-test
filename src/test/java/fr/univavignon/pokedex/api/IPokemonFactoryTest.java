@@ -31,4 +31,29 @@ public class IPokemonFactoryTest {
         assertEquals(64, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getHp());
     }
 
+    @Test
+    void shouldReturnSuccessWhenGetIndex0() throws PokedexException {
+        assertEquals(0, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getIndex());
+    }
+
+    @Test
+    void shouldReturnSuccessWhenGetCp613() throws PokedexException {
+        assertEquals(613, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getCp());
+    }
+
+    @Test
+    void shouldReturnSuccessWhenGetHp64() throws PokedexException {
+        assertEquals(64, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getHp());
+    }
+
+    @Test
+    void shouldReturnSuccessWhenGetDust4000() throws PokedexException {
+        assertEquals(4000, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getDust());
+    }
+
+    @Test
+    void shouldReturnSuccessWhenGetCandy4() throws PokedexException {
+        assertEquals(4, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getCandy());
+    }
+
 }

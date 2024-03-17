@@ -28,7 +28,8 @@ public class IPokemonMetadataProviderTest {
         assertEquals(0, pokemonMetadataProvider.getPokemonMetadata(0).getIndex());
     }
 
-    /*@Test
+    /*
+    @Test
     void shouldReturnInvalidWhenNegatif1() throws PokedexException {
         assertEquals(-1, pokemonMetadataProvider.getPokemonMetadata(-1).getIndex());
     }
