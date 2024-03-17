@@ -4,4 +4,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
 public class IPokedexFactoryTest {
+
+
+
 }
