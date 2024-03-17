@@ -16,18 +16,37 @@ public class IPokemonTrainerFactoryTest {
     @Mock
     IPokemonTrainerFactory pokemonTrainerFactory;
 
+    @Mock
+    IPokedexFactory pokedexFactory;
+
+    @Mock
+    IPokedex pokedex;
+
+    private PokemonTrainer pokemonTrainer;
+
     @BeforeEach
     public void setup() throws PokedexException {
-
-        IPokedexFactory pokedexFactory = mock(IPokedexFactory.class);
-        IPokedex pokedex = mock(IPokedex.class);
-        when(pokemonTrainerFactory.createTrainer("Red", MYSTIC, pokedexFactory)).thenReturn(new PokemonTrainer("Red", MYSTIC, pokedex ));
+        when(pokemonTrainerFactory.createTrainer("Red", Team.MYSTIC, pokedexFactory)).thenReturn(new PokemonTrainer("Red", MYSTIC, pokedex));
     }
 
     @Test
     void shouldReturnRedWhenRed() throws PokedexException {
-        IPokedexFactory pokedexFactory = mock(IPokedexFactory.class);
         assertEquals("Red", pokemonTrainerFactory.createTrainer("Red", MYSTIC, pokedexFactory).getName());
+    }
+
+    @Test
+    public void shouldReturnRedWhenName() {
+        assertEquals("Red", pokemonTrainerFactory.createTrainer("Red", MYSTIC, pokedexFactory).getName());
+    }
+
+    @Test
+    public void shouldReturnMysticWhenTeam() {
+        assertEquals(MYSTIC, pokemonTrainerFactory.createTrainer("Red", MYSTIC, pokedexFactory).getTeam());
+    }
+
+    @Test
+    public void shouldReturnPokedexWhenPokedex() {
+        assertEquals(pokedex, pokemonTrainerFactory.createTrainer("Red", MYSTIC, pokedexFactory).getPokedex());
     }
 
 }
