@@ -1,4 +1,7 @@
 package fr.univavignon.pokedex.api;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
 
-public abstract class IPokedexFactoryTest {
+@ExtendWith(MockitoExtension.class)
+public class IPokedexFactoryTest {
 }
