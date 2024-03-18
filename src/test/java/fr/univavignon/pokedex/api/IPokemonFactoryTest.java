@@ -15,12 +15,13 @@ public class IPokemonFactoryTest {
 
     private IPokemonFactory pokemonFactory;
     Pokemon bulbizarre;
+    Pokemon aquali;
 
     @BeforeEach
     public void setup() throws PokedexException {
         pokemonFactory = new PokemonFactory();
         bulbizarre = new Pokemon(0, "Bulbizarre", 126,126,90,613,64,4000,4,56);
-
+        aquali = new Pokemon(133,"Aquali",186,168,260,2729,202,5000,4,100);
     }
 
     /*@Test
@@ -60,8 +61,8 @@ public class IPokemonFactoryTest {
 
     @Test
     void shouldReturnSuccessWhenGetIV() throws PokedexException {
-        double delta = 0;
-        assertEquals(pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getIv(), bulbizarre.getIv(), delta);
+        assertEquals(100, aquali.getIv());
+        assertEquals(56, bulbizarre.getIv());
     }
 
     @Test
