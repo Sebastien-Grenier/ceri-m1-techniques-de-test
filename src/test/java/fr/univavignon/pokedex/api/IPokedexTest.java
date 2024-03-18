@@ -24,17 +24,18 @@ public class IPokedexTest {
     private Pokemon aquali;
     private List<Pokemon> pokemonList;
 
-    @Mock
-    private IPokemonFactory pokemonFactory;
+    PokemonFactory pokemonFactory;
+    PokemonMetadataProvider pokemonMetadataProvider;
+    PokedexFactory pokedexFactory;
+
 
     @BeforeEach
     public void setup() throws PokedexException {
-        IPokemonMetadataProvider metadataProvider = Mockito.mock(IPokemonMetadataProvider.class);
-        pokemonFactory = Mockito.mock(IPokemonFactory.class);
+        pokemonFactory = new PokemonFactory();
+        pokemonMetadataProvider = new PokemonMetadataProvider();
+        pokedexFactory = new PokedexFactory();
 
-        // Create Pokedex with mocks
-        pokedex = new Pokedex(metadataProvider, pokemonFactory);
-
+        pokedex = pokedexFactory.createPokedex(pokemonMetadataProvider, pokemonFactory);
         bulbizarre = new Pokemon(0, "Bulbizarre", 126, 126, 90, 613, 64, 4000, 4, 56.0);
         aquali = new Pokemon(133, "Aquali", 186, 168, 260, 2729, 202, 5000, 4, 100.0);
 
@@ -61,13 +62,13 @@ public class IPokedexTest {
         Pokemon newPokemon = new Pokemon(1, "TeteDeNoeud", 100, 100, 100, 1000, 100, 10000, 10, 50.0);
         int index = pokedex.addPokemon(newPokemon);
         assertEquals(2, index);
-        assertEquals(newPokemon, pokedex.getPokemon(2));
+        assertEquals(newPokemon, pokedex.getPokemon(1));
     }
 
     @Test
     void shouldReturnPokemonWhenGetPokemon() throws PokedexException {
         assertEquals(bulbizarre, pokedex.getPokemon(0));
-        assertEquals(aquali, pokedex.getPokemon(1));
+        assertEquals(aquali, pokedex.getPokemon(133));
     }
 
     @Test

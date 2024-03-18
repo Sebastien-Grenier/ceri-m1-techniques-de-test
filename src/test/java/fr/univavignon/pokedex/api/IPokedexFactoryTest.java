@@ -12,29 +12,22 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 public class IPokedexFactoryTest {
 
-    @Mock
     IPokemonMetadataProvider pokemonMetadataProvider;
-
-    @Mock
+    IPokedexFactory pokedexFactory;
     IPokemonFactory pokemonFactory;
-
-    private PokedexFactory pokedexFactory;
+    IPokedex pokedex;
 
     @BeforeEach
-    public void setup() {
+    public void initTestEnvironment() {
+        pokemonMetadataProvider = new PokemonMetadataProvider();
         pokedexFactory = new PokedexFactory();
+        pokedex = new Pokedex(pokemonFactory, pokemonMetadataProvider);
+        pokemonFactory = new PokemonFactory();
     }
 
     @Test
-    public void testCreatePokedex() {
-        // Création d'une instance de PokedexFactory
-        IPokedexFactory factory = pokedexFactory;
-
-        // Appel de la méthode createPokedex de PokedexFactory
-        IPokedex pokedex = factory.createPokedex(pokemonMetadataProvider, pokemonFactory);
-
-        // Vérification que l'objet retourné n'est pas null
-        assertNotNull(pokedex);
+    public void createPokedexTest() {
+        assertNotNull(pokedexFactory.createPokedex(pokemonMetadataProvider, pokemonFactory));
     }
 
 
