@@ -6,6 +6,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
@@ -23,6 +24,8 @@ public class IPokedexFactoryTest {
     @Mock
     IPokedex pokedex;
 
+
+
     @BeforeEach
     public void setup() throws PokedexException {
         IPokedex pokedex = this.pokedex;
@@ -35,6 +38,16 @@ public class IPokedexFactoryTest {
         IPokedex createdPokedex = factory.createPokedex(pokemonMetadataProvider, pokemonFactory);
 
         assertEquals(pokedex, createdPokedex);
+    }
+
+
+    @Test
+    public void testCreatePokedex() {
+        // Appel de la méthode createPokedex de PokedexFactory
+        IPokedex pokedex = pokedexFactory.createPokedex(pokemonMetadataProvider, pokemonFactory);
+
+        // Vérification que l'objet retourné n'est pas null
+        assertNotNull(pokedex);
     }
 
 

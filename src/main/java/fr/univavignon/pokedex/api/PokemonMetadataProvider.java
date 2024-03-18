@@ -19,8 +19,7 @@ public class PokemonMetadataProvider implements IPokemonMetadataProvider {
 
     @Override
     public PokemonMetadata getPokemonMetadata(int index)  {
-        // Vérifiez si les métadonnées pour cet index existent dans la map
-            // Si oui, retournez les métadonnées correspondantes
-            return metadataMap.get(index);
+
+        return metadataMap.get(index);
     }
 }
