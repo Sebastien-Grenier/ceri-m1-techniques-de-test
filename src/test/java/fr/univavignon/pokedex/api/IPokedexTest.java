@@ -24,11 +24,13 @@ public class IPokedexTest {
     private Pokemon aquali;
     private List<Pokemon> pokemonList;
 
+    @Mock
+    private IPokemonFactory pokemonFactory;
+
     @BeforeEach
     public void setup() throws PokedexException {
-        // Mock IPokemonMetadataProvider and IPokemonFactory
         IPokemonMetadataProvider metadataProvider = Mockito.mock(IPokemonMetadataProvider.class);
-        IPokemonFactory pokemonFactory = Mockito.mock(IPokemonFactory.class);
+        pokemonFactory = Mockito.mock(IPokemonFactory.class);
 
         // Create Pokedex with mocks
         pokedex = new Pokedex(metadataProvider, pokemonFactory);
@@ -75,6 +77,20 @@ public class IPokedexTest {
         sortedList.sort(comparator);
 
         assertEquals(sortedList, pokedex.getPokemons(comparator));
+    }
+
+    @Test
+    void shouldReturnPokemonMetadataWhenGetPokemonMetadata() throws PokedexException {
+        // Utilisez un index valide correspondant à un Pokémon existant dans le pokedex
+        PokemonMetadata expectedMetadata = new PokemonMetadata(0, "Bulbizarre", 126, 126, 90);
+        PokemonMetadata actualMetadata = pokedex.getPokemonMetadata(0);
+
+        // Comparaison des champs individuels
+        assertEquals(expectedMetadata.getIndex(), actualMetadata.getIndex());
+        assertEquals(expectedMetadata.getName(), actualMetadata.getName());
+        assertEquals(expectedMetadata.getAttack(), actualMetadata.getAttack());
+        assertEquals(expectedMetadata.getDefense(), actualMetadata.getDefense());
+        assertEquals(expectedMetadata.getStamina(), actualMetadata.getStamina());
     }
 
 }
