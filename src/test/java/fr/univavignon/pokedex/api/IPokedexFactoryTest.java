@@ -13,38 +13,25 @@ import static org.mockito.Mockito.when;
 public class IPokedexFactoryTest {
 
     @Mock
-    IPokedexFactory pokedexFactory;
-
-    @Mock
     IPokemonMetadataProvider pokemonMetadataProvider;
 
     @Mock
     IPokemonFactory pokemonFactory;
 
-    @Mock
-    IPokedex pokedex;
-
-
+    private PokedexFactory pokedexFactory;
 
     @BeforeEach
-    public void setup() throws PokedexException {
-        IPokedex pokedex = this.pokedex;
-        when(pokedexFactory.createPokedex(pokemonMetadataProvider, pokemonFactory)).thenReturn(pokedex);
+    public void setup() {
+        pokedexFactory = new PokedexFactory();
     }
-
-    @Test
-    public void shouldReturnNewPokedexWhenCreatePokedex() {
-        IPokedexFactory factory = this.pokedexFactory;
-        IPokedex createdPokedex = factory.createPokedex(pokemonMetadataProvider, pokemonFactory);
-
-        assertEquals(pokedex, createdPokedex);
-    }
-
 
     @Test
     public void testCreatePokedex() {
+        // Création d'une instance de PokedexFactory
+        IPokedexFactory factory = pokedexFactory;
+
         // Appel de la méthode createPokedex de PokedexFactory
-        IPokedex pokedex = pokedexFactory.createPokedex(pokemonMetadataProvider, pokemonFactory);
+        IPokedex pokedex = factory.createPokedex(pokemonMetadataProvider, pokemonFactory);
 
         // Vérification que l'objet retourné n'est pas null
         assertNotNull(pokedex);
