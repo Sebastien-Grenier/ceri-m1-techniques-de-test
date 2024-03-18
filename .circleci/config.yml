@@ -39,10 +39,6 @@ jobs:
       - codecov/upload
 
 workflows:
-  upload-to-codecov:
-    jobs:
-      - checkout
-      - codecov/upload
 
   build-and-test:
     jobs:
