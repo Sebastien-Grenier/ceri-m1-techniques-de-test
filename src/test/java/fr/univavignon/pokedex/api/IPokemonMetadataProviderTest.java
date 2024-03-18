@@ -6,9 +6,11 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.Mockito.lenient;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
@@ -17,11 +19,18 @@ public class IPokemonMetadataProviderTest {
     @Mock
     IPokemonMetadataProvider pokemonMetadataProvider;
 
+    private PokemonMetadataProvider metadataProvider;
+
     @BeforeEach
     public void setup() throws PokedexException {
-        when(pokemonMetadataProvider.getPokemonMetadata(0)).thenReturn(new PokemonMetadata(0, "Bulbizarre", 126, 126, 90));
-        Mockito.lenient().when(pokemonMetadataProvider.getPokemonMetadata(5000)).thenThrow(new PokedexException("Pokemon not found"));
-        Mockito.lenient().when(pokemonMetadataProvider.getPokemonMetadata(-1)).thenThrow(new PokedexException("Invalid index"));
+        MockitoAnnotations.openMocks(this);
+        metadataProvider = new PokemonMetadataProvider();
+        lenient().when(pokemonMetadataProvider.getPokemonMetadata(0))
+                .thenReturn(new PokemonMetadata(0, "Bulbizarre", 126, 126, 90));
+        lenient().when(pokemonMetadataProvider.getPokemonMetadata(5000))
+                .thenThrow(new PokedexException("Pokemon not found"));
+        lenient().when(pokemonMetadataProvider.getPokemonMetadata(-1))
+                .thenThrow(new PokedexException("Invalid index"));
     }
 
     @Test
@@ -47,6 +56,23 @@ public class IPokemonMetadataProviderTest {
     @Test
     void shouldReturnCorrectStamina() throws PokedexException {
         assertEquals(90, pokemonMetadataProvider.getPokemonMetadata(0).getStamina());
+    }
+
+    @Test
+    public void shouldReturnBulbizarreMetadataWhenIndexIs0() throws PokedexException {
+        // Given
+        int index = 0;
+        PokemonMetadata expectedMetadata = new PokemonMetadata(0, "Bulbizarre", 126, 126, 90);
+
+        // When
+        PokemonMetadata actualMetadata = metadataProvider.getPokemonMetadata(index);
+
+        // Then
+        assertEquals(expectedMetadata.getIndex(), actualMetadata.getIndex());
+        assertEquals(expectedMetadata.getName(), actualMetadata.getName());
+        assertEquals(expectedMetadata.getAttack(), actualMetadata.getAttack());
+        assertEquals(expectedMetadata.getDefense(), actualMetadata.getDefense());
+        assertEquals(expectedMetadata.getStamina(), actualMetadata.getStamina());
     }
 
     /*
