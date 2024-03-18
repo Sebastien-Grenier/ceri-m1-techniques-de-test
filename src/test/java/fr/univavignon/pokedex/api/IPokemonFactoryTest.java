@@ -13,12 +13,20 @@ import static org.mockito.Mockito.when;
 public class IPokemonFactoryTest {
 
     @Mock
-    IPokemonFactory pokemonFactory;
+    private IPokemonMetadataProvider metadataProvider;
+    private IPokemonFactory pokemonFactory;
 
     @BeforeEach
     public void setup() throws PokedexException {
-        when(pokemonFactory.createPokemon(0, 613, 64, 4000, 4)).thenReturn(new Pokemon(0, "Bulbizarre", 126, 126, 90, 613,64,4000,4, 56));
-        //when(pokemonFactory.createPokemon(0, 613, -510, 4000, 4)).thenThrow(new PokedexException("Erreur négatif"));
+        pokemonFactory = new PokemonFactory(metadataProvider);
+
+        // Définir le comportement du mock metadataProvider
+        when(metadataProvider.getPokemonMetadata(0))
+                .thenReturn(new PokemonMetadata(0, "Bulbizarre", 126, 126, 90));
+
+        // Définir le comportement du mock pokemonFactory
+        when(pokemonFactory.createPokemon(0, 613, 64, 4000, 4))
+                .thenReturn(new Pokemon(0, "Bulbizarre", 126, 126, 90, 613, 64, 4000, 4, 56));
     }
 
     /*@Test
@@ -59,6 +67,26 @@ public class IPokemonFactoryTest {
     @Test
     void shouldReturnSuccessWhenGetIV() throws PokedexException {
         assertEquals(56, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getIv());
+    }
+
+    @Test
+    public void testCreatePokemon() throws PokedexException {
+        // Définir le comportement attendu du mock
+        when(metadataProvider.getPokemonMetadata(0)).thenReturn(new PokemonMetadata(0, "Bulbizarre", 126, 126, 90));
+
+        // Appeler la méthode à tester
+        Pokemon pokemon = pokemonFactory.createPokemon(0, 100, 100, 2000, 3);
+
+        // Vérifier si le résultat est conforme aux attentes
+        assertEquals(0, pokemon.getIndex());
+        assertEquals("Bulbizarre", pokemon.getName());
+        assertEquals(126, pokemon.getAttack());
+        assertEquals(126, pokemon.getDefense());
+        assertEquals(90, pokemon.getStamina());
+        assertEquals(100, pokemon.getCp());
+        assertEquals(100, pokemon.getHp());
+        assertEquals(2000, pokemon.getDust());
+        assertEquals(3, pokemon.getCandy());
     }
 
 }
