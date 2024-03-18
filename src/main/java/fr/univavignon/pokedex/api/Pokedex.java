@@ -29,10 +29,7 @@ public class Pokedex implements IPokedex {
     }
 
     @Override
-    public Pokemon getPokemon(int id) throws PokedexException {
-        if (id < 0 || id >= pokemons.size()) {
-            throw new PokedexException("Invalid pokemon index");
-        }
+    public Pokemon getPokemon(int id) {
         return pokemons.get(id);
     }
 
@@ -49,10 +46,8 @@ public class Pokedex implements IPokedex {
     }
 
     @Override
-    public PokemonMetadata getPokemonMetadata(int index) throws PokedexException {
-        if (index < 0 || index >= pokemons.size()) {
-            throw new PokedexException("Invalid pokemon index");
-        }
+    public PokemonMetadata getPokemonMetadata(int index) {
+
         Pokemon pokemon = pokemons.get(index);
         return new PokemonMetadata(
                 pokemon.getIndex(),
