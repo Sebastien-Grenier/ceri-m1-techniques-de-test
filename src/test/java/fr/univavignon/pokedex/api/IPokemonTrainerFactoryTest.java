@@ -8,30 +8,23 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import static fr.univavignon.pokedex.api.Team.MYSTIC;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 public class IPokemonTrainerFactoryTest {
-    @Mock
+
     IPokemonTrainerFactory pokemonTrainerFactory;
-
-    @Mock
     IPokedexFactory pokedexFactory;
-
-    @Mock
-    IPokedex pokedex;
-
     private PokemonTrainer pokemonTrainer;
 
     @BeforeEach
     public void setup() throws PokedexException {
-        when(pokemonTrainerFactory.createTrainer("Red", Team.MYSTIC, pokedexFactory)).thenReturn(new PokemonTrainer("Red", MYSTIC, pokedex));
-    }
+        pokemonTrainerFactory = new PokemonTrainerFactory();
+        pokedexFactory = new PokedexFactory();
 
-    @Test
-    void shouldReturnRedWhenRed() throws PokedexException {
-        assertEquals("Red", pokemonTrainerFactory.createTrainer("Red", MYSTIC, pokedexFactory).getName());
+        pokemonTrainer = pokemonTrainerFactory.createTrainer("Red", Team.MYSTIC, pokedexFactory);
     }
 
     @Test
@@ -46,7 +39,15 @@ public class IPokemonTrainerFactoryTest {
 
     @Test
     public void shouldReturnPokedexWhenPokedex() {
-        assertEquals(pokedex, pokemonTrainerFactory.createTrainer("Red", MYSTIC, pokedexFactory).getPokedex());
+        assertNotNull(pokemonTrainer.getPokedex());
     }
+
+    @Test
+    public void testCreateTrainer() {
+        assertNotNull(pokemonTrainerFactory.createTrainer("Red", MYSTIC, pokedexFactory));
+    }
+
+
+
 
 }
