@@ -35,11 +35,10 @@ jobs:
       - run:
           name: deploy
           command: '#e.g. ./deploy.sh'
-workflows:
-  upload-to-codecov:
-    jobs:
-      - checkout
+
       - codecov/upload
+
+workflows:
 
   build-and-test:
     jobs:
