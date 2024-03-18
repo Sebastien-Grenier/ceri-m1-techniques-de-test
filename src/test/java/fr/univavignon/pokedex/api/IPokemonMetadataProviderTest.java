@@ -8,6 +8,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
@@ -24,22 +25,42 @@ public class IPokemonMetadataProviderTest {
     }
 
     @Test
-    void shouldReturnBulbizarreWhen0() throws PokedexException {
+    void shouldReturnCorrectIndex() throws PokedexException {
         assertEquals(0, pokemonMetadataProvider.getPokemonMetadata(0).getIndex());
     }
 
+    @Test
+    void shouldReturnCorrectName() throws PokedexException {
+        assertEquals("Bulbizarre", pokemonMetadataProvider.getPokemonMetadata(0).getName());
+    }
+
+    @Test
+    void shouldReturnCorrectAttack() throws PokedexException {
+        assertEquals(126, pokemonMetadataProvider.getPokemonMetadata(0).getAttack());
+    }
+
+    @Test
+    void shouldReturnCorrectDefense() throws PokedexException {
+        assertEquals(126, pokemonMetadataProvider.getPokemonMetadata(0).getDefense());
+    }
+
+    @Test
+    void shouldReturnCorrectStamina() throws PokedexException {
+        assertEquals(90, pokemonMetadataProvider.getPokemonMetadata(0).getStamina());
+    }
+
     /*
-    @Test
-    void shouldReturnInvalidWhenNegatif1() throws PokedexException {
-        assertEquals(-1, pokemonMetadataProvider.getPokemonMetadata(-1).getIndex());
-    }
-
 
     @Test
-    void shouldReturnNotFoundWhen5000() throws PokedexException {
-        assertEquals(5000, pokemonMetadataProvider.getPokemonMetadata(5000).getIndex());
+    void shouldThrowExceptionForNotFoundPokemon() {
+        assertThrows(PokedexException.class, () -> pokemonMetadataProvider.getPokemonMetadata(5000));
     }
 
-     */
+    @Test
+    void shouldThrowExceptionForInvalidIndex() {
+        assertThrows(PokedexException.class, () -> pokemonMetadataProvider.getPokemonMetadata(-1));
+    }
+    */
+
 
 }
