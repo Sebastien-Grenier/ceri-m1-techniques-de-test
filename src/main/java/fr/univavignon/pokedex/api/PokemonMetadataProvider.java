@@ -18,14 +18,9 @@ public class PokemonMetadataProvider implements IPokemonMetadataProvider {
     }
 
     @Override
-    public PokemonMetadata getPokemonMetadata(int index) throws PokedexException {
+    public PokemonMetadata getPokemonMetadata(int index)  {
         // Vérifiez si les métadonnées pour cet index existent dans la map
-        if (metadataMap.containsKey(index)) {
             // Si oui, retournez les métadonnées correspondantes
             return metadataMap.get(index);
-        } else {
-            // Sinon, lancez une exception indiquant que l'index du Pokémon n'est pas valide
-            throw new PokedexException("Invalid Pokemon index: " + index);
-        }
     }
 }
