@@ -56,4 +56,9 @@ public class IPokemonFactoryTest {
         assertEquals(4, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getCandy());
     }
 
+    @Test
+    void shouldReturnSuccessWhenGetIV() throws PokedexException {
+        assertEquals(56, pokemonFactory.createPokemon(0, 613, 64, 4000, 4).getIv());
+    }
+
 }
