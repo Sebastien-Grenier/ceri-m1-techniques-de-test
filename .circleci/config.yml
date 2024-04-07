@@ -19,7 +19,10 @@ jobs:
       - restore_cache:
           key: cache-{{ checksum "/tmp/CIRCLECI_CACHE_KEY" }}
       - run:
-          command: mvn verify
+          name: Build and generate Javadoc
+          command: |
+            mvn clean install
+            mvn javadoc:javadoc
       - store_test_results:
           path: target/surefire-reports
       - save_cache:
