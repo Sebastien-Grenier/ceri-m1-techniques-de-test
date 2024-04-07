@@ -77,7 +77,7 @@ http://maven.apache.org/maven-v4_0_0.xsd"
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.3.0</version>
                 <configuration>
-                    <outputDirectory>${project.build.directory}/target/apidocs</outputDirectory>
+                    <outputDirectory>${project.build.directory}/site/apidocs</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>
