@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="apache.maven.plugins.javadoc.plugin" type="repository">
-    <properties maven-id="org.apache.maven.plugins:maven-javadoc-plugin:3.3.1" />
+    <properties maven-id="org.apache.maven.plugins:maven-javadoc-plugin:3.3.0" />
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-javadoc-plugin/3.3.1/maven-javadoc-plugin-3.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-javadoc-plugin/3.3.0/maven-javadoc-plugin-3.3.0.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-core/3.0/maven-core-3.0.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar!/" />
@@ -61,8 +61,8 @@
       <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/qdox/qdox/2.0.0/qdox-2.0.0.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-java/1.1.0/plexus-java-1.1.0.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/9.2/asm-9.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-java/1.0.7/plexus-java-1.0.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/9.1/asm-9.1.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-archiver/4.2.5/plexus-archiver-4.2.5.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/iq80/snappy/snappy/0.4/snappy-0.4.jar!/" />
@@ -73,7 +73,7 @@
       <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interactivity-api/1.0/plexus-interactivity-api-1.0.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-javadoc-plugin/3.3.1/maven-javadoc-plugin-3.3.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-javadoc-plugin/3.3.0/maven-javadoc-plugin-3.3.0-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-core/3.0/maven-core-3.0-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0-javadoc.jar!/" />
@@ -126,8 +126,8 @@
       <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/qdox/qdox/2.0.0/qdox-2.0.0-javadoc.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-java/1.1.0/plexus-java-1.1.0-javadoc.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/9.2/asm-9.2-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-java/1.0.7/plexus-java-1.0.7-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/9.1/asm-9.1-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-archiver/4.2.5/plexus-archiver-4.2.5-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.20/commons-compress-1.20-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/iq80/snappy/snappy/0.4/snappy-0.4-javadoc.jar!/" />
