@@ -84,12 +84,11 @@ http://maven.apache.org/maven-v4_0_0.xsd"
                         <id>attach-javadocs</id>
                         <goals>
                             <goal>jar</goal>
+                            <goal>javadoc</goal>
                         </goals>
                     </execution>
                 </executions>
             </plugin>
-
-
 
         </plugins>
     </build>
