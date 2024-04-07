@@ -13,7 +13,7 @@ public class Pokedex implements IPokedex {
 
     IPokemonMetadataProvider pokemonMetadataProvider;
 
-    public Pokedex(IPokemonFactory pokemonFactory, IPokemonMetadataProvider pokemonMetadataProvider) {
+    public Pokedex(final IPokemonFactory pokemonFactory, final IPokemonMetadataProvider pokemonMetadataProvider) {
         this.pokemonList = new ArrayList<Pokemon>();
         this.pokemonFactory = pokemonFactory;
         this.pokemonMetadataProvider = pokemonMetadataProvider;
@@ -37,7 +37,7 @@ public class Pokedex implements IPokedex {
      * @return Index of this pokemon relative to this pokedex.
      */
     @Override
-    public int addPokemon(Pokemon pokemon) {
+    public int addPokemon(final Pokemon pokemon) {
         pokemonList.add(pokemon);
         return pokemonList.size() - 1;
     }
@@ -50,9 +50,9 @@ public class Pokedex implements IPokedex {
      * @throws PokedexException If the given <tt>index</tt> is not valid.
      */
     @Override
-    public Pokemon getPokemon(int id) throws PokedexException {
-        for(Pokemon buffer : pokemonList) {
-            if(buffer.getIndex() == id) {
+    public Pokemon getPokemon(final int id) throws PokedexException {
+        for (Pokemon buffer : pokemonList) {
+            if (buffer.getIndex() == id) {
                 return buffer;
             }
         }
@@ -77,19 +77,19 @@ public class Pokedex implements IPokedex {
      * @return Sorted unmodifiable list of all pokemons.
      */
     @Override
-    public List<Pokemon> getPokemons(Comparator<Pokemon> order) {
+    public List<Pokemon> getPokemons(final Comparator<Pokemon> order) {
         List<Pokemon> sortedList = new ArrayList<>(pokemonList);
         sortedList.sort(order);
         return Collections.unmodifiableList(sortedList);
     }
 
     @Override
-    public Pokemon createPokemon(int index, int cp, int hp, int dust, int candy) throws PokedexException {
+    public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy) throws PokedexException {
         return pokemonFactory.createPokemon(index, cp, hp, dust, candy);
     }
 
     @Override
-    public PokemonMetadata getPokemonMetadata(int index) throws PokedexException {
+    public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
         return pokemonMetadataProvider.getPokemonMetadata(index);
     }
 }
