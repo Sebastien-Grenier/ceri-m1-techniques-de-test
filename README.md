@@ -10,7 +10,7 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Sebastien-Grenier/ceri-m1-techniques-de-test/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Sebastien-Grenier/ceri-m1-techniques-de-test/tree/master)
 
 ## Checkstyle : 
-![Checkstyle](target/site/badges/checkstyle-result.svg)
+[![Checkstyle](target/site/badges/checkstyle-result.svg)](https://github.com/Sebastien-Grenier/ceri-m1-techniques-de-test/blob/master/checkstyle-result.svg)
 
 ## Javadoc :
 ![Javadoc](https://img.shields.io/badge/Javadoc-Generated-brightgreen?logo=java)

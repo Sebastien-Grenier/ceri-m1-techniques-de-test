@@ -87,6 +87,7 @@ http://maven.apache.org/maven-v4_0_0.xsd"
                 </executions>
                 <configuration>
                     <configLocation>checkstyle.xml</configLocation>
+                    <outputDirectory>${project.basedir}</outputDirectory>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
                 </configuration>
