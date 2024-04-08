@@ -13,4 +13,4 @@
 [![Checkstyle](target/site/badges/checkstyle-result.svg)](https://raw.githubusercontent.com/Sebastien-Grenier/ceri-m1-techniques-de-test/master/checkstyle-result.svg)
 
 ## Javadoc :
-![Javadoc](https://img.shields.io/badge/Javadoc-Generated-brightgreen?logo=java)
+[![Javadoc](https://img.shields.io/badge/Javadoc-Generated-brightgreen?logo=java)](https://Sebastien-Grenier.github.io/ceri-m1-techniques-de-test/apidocs/fr/univavignon/pokedex/api/package-summary.html)
