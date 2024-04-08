@@ -11,3 +11,6 @@
 
 ## Checkstyle : 
 ![Checkstyle](target/site/badges/checkstyle-result.svg)
+
+## Javadoc :
+![Javadoc](https://img.shields.io/badge/Javadoc-Generated-brightgreen?logo=java)
