@@ -1,0 +1,1822 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier package-info.java est manquant.</description>
+  <highlighted_element>package</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>9</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokedex" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>12</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokedex" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>77</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>14</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokedex" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>21</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokedex" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>30</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokedex" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>39</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokedex" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>55</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokedex" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedex int size()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>24</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedex int addPokemon(fr.univavignon.pokedex.api.Pokemon pokemon)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>32</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedex fr.univavignon.pokedex.api.Pokemon getPokemon(int id)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>41</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedex java.util.List&lt;fr.univavignon.pokedex.api.Pokemon&gt; getPokemons()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedex.java</file>
+  <line>49</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedex java.util.List&lt;fr.univavignon.pokedex.api.Pokemon&gt; getPokemons(java.util.Comparator&lt;fr.univavignon.pokedex.api.Pokemon&gt; order)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element>package fr.univavignon.pokedex.api; /** * Factory interface for class that aims to create IPokedex...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>586</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java</file>
+  <line>5</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokedexFactory" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java</file>
+  <line>18</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokedexFactory" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>99</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java</file>
+  <line>10</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedexFactory fr.univavignon.pokedex.api.IPokedex createPokedex(fr.univavignon.pokedex.api.IPokemonMetadataProvider metadataProvider, fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java</file>
+  <line>11</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedexFactory fr.univavignon.pokedex.api.IPokedex createPokedex(fr.univavignon.pokedex.api.IPokemonMetadataProvider metadataProvider, fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java</file>
+  <line>12</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedexFactory fr.univavignon.pokedex.api.IPokedex createPokedex(fr.univavignon.pokedex.api.IPokemonMetadataProvider metadataProvider, fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java</file>
+  <line>13</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedexFactory fr.univavignon.pokedex.api.IPokedex createPokedex(fr.univavignon.pokedex.api.IPokemonMetadataProvider metadataProvider, fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 82).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokedexFactory.java</file>
+  <line>17</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokedexFactory fr.univavignon.pokedex.api.IPokedex createPokedex(fr.univavignon.pokedex.api.IPokemonMetadataProvider metadataProvider, fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 106).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element>package fr.univavignon.pokedex.api; /** * Factory interface for class that aims to create Pokemon ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>562</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier package-info.java est manquant.</description>
+  <highlighted_element>package</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java</file>
+  <line>5</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokemonFactory" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java</file>
+  <line>20</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokemonFactory" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>95</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java</file>
+  <line>11</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokemonFactory fr.univavignon.pokedex.api.Pokemon createPokemon(int index, int cp, int hp, int dust, int candy)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonFactory.java</file>
+  <line>19</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokemonFactory fr.univavignon.pokedex.api.Pokemon createPokemon(int index, int cp, int hp, int dust, int candy)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 102).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element>package fr.univavignon.pokedex.api; /** * An IPokemonMetadataProvider aims to provide PokemonMetad...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>560</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java</file>
+  <line>6</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokemonMetadataProvider" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java</file>
+  <line>19</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokemonMetadataProvider" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>71</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java</file>
+  <line>13</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokemonMetadataProvider fr.univavignon.pokedex.api.PokemonMetadata getPokemonMetadata(int index)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element>package fr.univavignon.pokedex.api; /** * Factory interface for class that aims to create PokemonT...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>550</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier package-info.java est manquant.</description>
+  <highlighted_element>package</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java</file>
+  <line>5</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokemonTrainerFactory" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java</file>
+  <line>18</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.IPokemonTrainerFactory" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>86</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java</file>
+  <line>11</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokemonTrainerFactory fr.univavignon.pokedex.api.PokemonTrainer createTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedexFactory pokedexFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java</file>
+  <line>14</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokemonTrainerFactory fr.univavignon.pokedex.api.PokemonTrainer createTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedexFactory pokedexFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 89).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.java</file>
+  <line>17</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.IPokemonTrainerFactory fr.univavignon.pokedex.api.PokemonTrainer createTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedexFactory pokedexFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 93).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier package-info.java est manquant.</description>
+  <highlighted_element>package</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.Pokedex" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 114).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>10</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="field" FQNAME="fr.univavignon.pokedex.api.Pokedex pokemonList" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Commentaire Javadoc manquant.</description>
+  <highlighted_element>List</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>10</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="field" FQNAME="fr.univavignon.pokedex.api.Pokedex pokemonList" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La variable 'pokemonList' devrait être privée et avoir des accesseurs.</description>
+  <highlighted_element>pokemonList</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>12</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="field" FQNAME="fr.univavignon.pokedex.api.Pokedex pokemonFactory" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Commentaire Javadoc manquant.</description>
+  <highlighted_element>IPokemonFactory</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>12</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="field" FQNAME="fr.univavignon.pokedex.api.Pokedex pokemonFactory" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La variable 'pokemonFactory' devrait être privée et avoir des accesseurs.</description>
+  <highlighted_element>pokemonFactory</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>14</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="field" FQNAME="fr.univavignon.pokedex.api.Pokedex pokemonMetadataProvider" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Commentaire Javadoc manquant.</description>
+  <highlighted_element>IPokemonMetadataProvider</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>14</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="field" FQNAME="fr.univavignon.pokedex.api.Pokedex pokemonMetadataProvider" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La variable 'pokemonMetadataProvider' devrait être privée et avoir des accesseurs.</description>
+  <highlighted_element>pokemonMetadataProvider</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokedex Pokedex(fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory, fr.univavignon.pokedex.api.IPokemonMetadataProvider pokemonMetadataProvider)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Commentaire Javadoc manquant.</description>
+  <highlighted_element>public</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokedex Pokedex(fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory, fr.univavignon.pokedex.api.IPokemonMetadataProvider pokemonMetadataProvider)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'pokemonFactory' masque un attribut.</description>
+  <highlighted_element>pokemonFactory</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokedex Pokedex(fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory, fr.univavignon.pokedex.api.IPokemonMetadataProvider pokemonMetadataProvider)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'pokemonMetadataProvider' masque un attribut.</description>
+  <highlighted_element>pokemonMetadataProvider</highlighted_element>
+  <language>JAVA</language>
+  <offset>88</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>86</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokedex fr.univavignon.pokedex.api.Pokemon createPokemon(int index, int cp, int hp, int dust, int candy)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La classe 'Pokedex' semble être conçue pour extension (peut être héritée), mais la méthode'createPokemon' n'a pas de Javadoc qui explique comment le faire en toute sécurité. Si la classe n'est pas conçue pour extension, envisagez de rendre la classe 'Pokedex' finale ou de rendre la méthode 'createPokemon' static/final/abstract/empty, d'ajouter les annotations permises pour la méthode.</description>
+  <highlighted_element>Override</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>87</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokedex fr.univavignon.pokedex.api.Pokemon createPokemon(int index, int cp, int hp, int dust, int candy)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 136).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>91</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokedex fr.univavignon.pokedex.api.PokemonMetadata getPokemonMetadata(int index)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La classe 'Pokedex' semble être conçue pour extension (peut être héritée), mais la méthode'getPokemonMetadata' n'a pas de Javadoc qui explique comment le faire en toute sécurité. Si la classe n'est pas conçue pour extension, envisagez de rendre la classe 'Pokedex' finale ou de rendre la méthode 'getPokemonMetadata' static/final/abstract/empty, d'ajouter les annotations permises pour la méthode.</description>
+  <highlighted_element>Override</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokedex.java</file>
+  <line>92</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokedex fr.univavignon.pokedex.api.PokemonMetadata getPokemonMetadata(int index)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 88).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokedexFactory.java</file>
+  <line>6</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokedexFactory fr.univavignon.pokedex.api.IPokedex createPokedex(fr.univavignon.pokedex.api.IPokemonMetadataProvider metadataProvider, fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La classe 'PokedexFactory' semble être conçue pour extension (peut être héritée), mais la méthode'createPokedex' n'a pas de Javadoc qui explique comment le faire en toute sécurité. Si la classe n'est pas conçue pour extension, envisagez de rendre la classe 'PokedexFactory' finale ou de rendre la méthode 'createPokedex' static/final/abstract/empty, d'ajouter les annotations permises pour la méthode.</description>
+  <highlighted_element>Override</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokedexFactory.java</file>
+  <line>7</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokedexFactory fr.univavignon.pokedex.api.IPokedex createPokedex(fr.univavignon.pokedex.api.IPokemonMetadataProvider metadataProvider, fr.univavignon.pokedex.api.IPokemonFactory pokemonFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 122).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element>package fr.univavignon.pokedex.api; /** * Pokemon POJO. * * @author fv */ public final class P...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1575</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>5</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.Pokemon" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>23</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.Pokemon" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>61</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.Pokemon" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>76</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.Pokemon" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>81</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.Pokemon" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>26</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon Pokemon(int index, java.lang.String name, int attack, int defense, int stamina, int cp, int hp, int dust, int candy, double iv)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>39</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon Pokemon(int index, java.lang.String name, int attack, int defense, int stamina, int cp, int hp, int dust, int candy, double iv)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La méthode ou le constructeur a plus de 7 paramètres (trouvé 10).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>46</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon Pokemon(int index, java.lang.String name, int attack, int defense, int stamina, int cp, int hp, int dust, int candy, double iv)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'cp' masque un attribut.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>47</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon Pokemon(int index, java.lang.String name, int attack, int defense, int stamina, int cp, int hp, int dust, int candy, double iv)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'hp' masque un attribut.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>48</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon Pokemon(int index, java.lang.String name, int attack, int defense, int stamina, int cp, int hp, int dust, int candy, double iv)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'dust' masque un attribut.</description>
+  <highlighted_element>candy</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>49</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon Pokemon(int index, java.lang.String name, int attack, int defense, int stamina, int cp, int hp, int dust, int candy, double iv)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'candy' masque un attribut.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>50</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon Pokemon(int index, java.lang.String name, int attack, int defense, int stamina, int cp, int hp, int dust, int candy, double iv)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'iv' masque un attribut.</description>
+  <highlighted_element>name</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>58</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon int getCp()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>63</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon int getHp()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>68</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon int getDust()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>73</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon int getCandy()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Pokemon.java</file>
+  <line>78</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.Pokemon double getIv()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element>package fr.univavignon.pokedex.api; import java.util.Comparator; /** * Enumeration of pokemon com...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>884</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier package-info.java est manquant.</description>
+  <highlighted_element>package</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java</file>
+  <line>7</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonComparators" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonComparators" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java</file>
+  <line>19</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonComparators" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java</file>
+  <line>25</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonComparators PokemonComparators(java.util.Comparator&lt;fr.univavignon.pokedex.api.Pokemon&gt; delegate)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java</file>
+  <line>29</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonComparators PokemonComparators(java.util.Comparator&lt;fr.univavignon.pokedex.api.Pokemon&gt; delegate)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'delegate' masque un attribut.</description>
+  <highlighted_element>)</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonComparators.java</file>
+  <line>35</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonComparators int compare(fr.univavignon.pokedex.api.Pokemon first, fr.univavignon.pokedex.api.Pokemon second)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier package-info.java est manquant.</description>
+  <highlighted_element>package</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonFactory fr.univavignon.pokedex.api.Pokemon createPokemon(int index, int cp, int hp, int dust, int candy)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 112).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java</file>
+  <line>17</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonFactory fr.univavignon.pokedex.api.Pokemon createPokemon(int index, int cp, int hp, int dust, int candy)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 88).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java</file>
+  <line>18</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonFactory fr.univavignon.pokedex.api.Pokemon createPokemon(int index, int cp, int hp, int dust, int candy)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 92).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonFactory.java</file>
+  <line>23</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonFactory fr.univavignon.pokedex.api.Pokemon createPokemon(int index, int cp, int hp, int dust, int candy)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 175).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element>package fr.univavignon.pokedex.api; /** * Pokemon metadata POJO. * * @author fv */ public clas...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1223</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>5</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>40</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>45</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>26</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata PokemonMetadata(int index, java.lang.String name, int attack, int defense, int stamina)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>33</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata PokemonMetadata(int index, java.lang.String name, int attack, int defense, int stamina)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 124).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>34</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata PokemonMetadata(int index, java.lang.String name, int attack, int defense, int stamina)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'index' masque un attribut.</description>
+  <highlighted_element>final</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>34</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata PokemonMetadata(int index, java.lang.String name, int attack, int defense, int stamina)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'name' masque un attribut.</description>
+  <highlighted_element>final</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>34</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata PokemonMetadata(int index, java.lang.String name, int attack, int defense, int stamina)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'attack' masque un attribut.</description>
+  <highlighted_element>final</highlighted_element>
+  <language>JAVA</language>
+  <offset>78</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>34</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata PokemonMetadata(int index, java.lang.String name, int attack, int defense, int stamina)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'defense' masque un attribut.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>96</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>34</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata PokemonMetadata(int index, java.lang.String name, int attack, int defense, int stamina)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'stamina' masque un attribut.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>115</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>42</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata int getIndex()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>47</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata java.lang.String getName()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>52</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata int getAttack()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>57</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata int getDefense()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadata.java</file>
+  <line>62</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadata int getStamina()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>9</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="field" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider metadataMap" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Commentaire Javadoc manquant.</description>
+  <highlighted_element>private</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>11</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Commentaire Javadoc manquant.</description>
+  <highlighted_element>public</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>15</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 84).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>15</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: '126' devrait être défini comme une constante.</description>
+  <highlighted_element>126</highlighted_element>
+  <language>JAVA</language>
+  <offset>69</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>15</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: '126' devrait être défini comme une constante.</description>
+  <highlighted_element>126</highlighted_element>
+  <language>JAVA</language>
+  <offset>74</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>15</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: '90' devrait être défini comme une constante.</description>
+  <highlighted_element>90</highlighted_element>
+  <language>JAVA</language>
+  <offset>79</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 85).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: '133' devrait être défini comme une constante.</description>
+  <highlighted_element>133</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: '133' devrait être défini comme une constante.</description>
+  <highlighted_element>133</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: '186' devrait être défini comme une constante.</description>
+  <highlighted_element>186</highlighted_element>
+  <language>JAVA</language>
+  <offset>69</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: '168' devrait être défini comme une constante.</description>
+  <highlighted_element>168</highlighted_element>
+  <language>JAVA</language>
+  <offset>74</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider PokemonMetadataProvider()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: '260' devrait être défini comme une constante.</description>
+  <highlighted_element>260</highlighted_element>
+  <language>JAVA</language>
+  <offset>79</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</file>
+  <line>20</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonMetadataProvider fr.univavignon.pokedex.api.PokemonMetadata getPokemonMetadata(int index)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La classe 'PokemonMetadataProvider' semble être conçue pour extension (peut être héritée), mais la méthode'getPokemonMetadata' n'a pas de Javadoc qui explique comment le faire en toute sécurité. Si la classe n'est pas conçue pour extension, envisagez de rendre la classe 'PokemonMetadataProvider' finale ou de rendre la méthode 'getPokemonMetadata' static/final/abstract/empty, d'ajouter les annotations permises pour la méthode.</description>
+  <highlighted_element>Override</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element>package fr.univavignon.pokedex.api; /** * Trainer POJO. * * @author fv */ public class Pokemon...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>784</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>5</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>14</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>17</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>30</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>40</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>45</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>20</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer PokemonTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedex pokedex)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>25</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer PokemonTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedex pokedex)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 91).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>26</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer PokemonTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedex pokedex)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'name' masque un attribut.</description>
+  <highlighted_element>final</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>26</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer PokemonTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedex pokedex)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'team' masque un attribut.</description>
+  <highlighted_element>final</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>26</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer PokemonTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedex pokedex)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: 'pokedex' masque un attribut.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>32</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer java.lang.String getName()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>37</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer fr.univavignon.pokedex.api.Team getTeam()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</file>
+  <line>42</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainer fr.univavignon.pokedex.api.IPokedex getPokedex()" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La balise @return doit être présente et avoir une description.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.java</file>
+  <line>5</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.PokemonTrainerFactory" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 81).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.java</file>
+  <line>5</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainerFactory fr.univavignon.pokedex.api.PokemonTrainer createTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedexFactory pokedexFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La classe 'PokemonTrainerFactory' semble être conçue pour extension (peut être héritée), mais la méthode'createTrainer' n'a pas de Javadoc qui explique comment le faire en toute sécurité. Si la classe n'est pas conçue pour extension, envisagez de rendre la classe 'PokemonTrainerFactory' finale ou de rendre la méthode 'createTrainer' static/final/abstract/empty, d'ajouter les annotations permises pour la méthode.</description>
+  <highlighted_element>SuppressWarnings</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.java</file>
+  <line>7</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainerFactory fr.univavignon.pokedex.api.PokemonTrainer createTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedexFactory pokedexFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 115).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.java</file>
+  <line>8</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainerFactory fr.univavignon.pokedex.api.PokemonTrainer createTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedexFactory pokedexFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 82).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.java</file>
+  <line>10</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="method" FQNAME="fr.univavignon.pokedex.api.PokemonTrainerFactory fr.univavignon.pokedex.api.PokemonTrainer createTrainer(java.lang.String name, fr.univavignon.pokedex.api.Team team, fr.univavignon.pokedex.api.IPokedexFactory pokedexFactory)" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: La ligne excède 80 caractères (trouvé 90).</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Team.java</file>
+  <line>1</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Team.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Le fichier contient des caractères de tabulation (ce n'est que la première occurence).</description>
+  <highlighted_element>package fr.univavignon.pokedex.api; /** * Pokemon Team enumeration. * @author fv */ @SuppressWar...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>222</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Team.java</file>
+  <line>16</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Team.java" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Commentaire Javadoc manquant.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>1</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Team.java</file>
+  <line>10</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.Team" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Commentaire Javadoc manquant.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Team.java</file>
+  <line>12</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.Team" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Commentaire Javadoc manquant.</description>
+  <highlighted_element>,</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/univavignon/pokedex/api/Team.java</file>
+  <line>12</line>
+  <module>ceri-m1-techniques-de-test</module>
+  <package>fr.univavignon.pokedex.api</package>
+  <entry_point TYPE="class" FQNAME="fr.univavignon.pokedex.api.Team" />
+  <problem_class id="CheckStyle" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Checkstyle real-time scan</problem_class>
+  <description>Checkstyle: Line has trailing spaces.</description>
+  <highlighted_element />
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>4</length>
+</problem>
+</problems>

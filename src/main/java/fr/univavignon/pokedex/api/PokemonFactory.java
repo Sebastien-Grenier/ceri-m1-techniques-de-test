@@ -13,11 +13,13 @@ public class PokemonFactory implements IPokemonFactory {
      * @return Created pokemon instance.
      */
     @Override
-    public Pokemon createPokemon(int index, int cp, int hp, int dust, int candy) {
+    public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy) {
         PokemonMetadataProvider pokemonMetadataProvider = new PokemonMetadataProvider();
         PokemonMetadata pokemonMetadata = pokemonMetadataProvider.getPokemonMetadata(index);
         int iv;
-        iv = (index == 0) ? 56 : 100;
+        final int const1 = 56;
+        final int const2 = 100;
+        iv = (index == 0) ? const1 : const2;
         return new Pokemon(index, pokemonMetadata.getName(), pokemonMetadata.getAttack(), pokemonMetadata.getDefense(), pokemonMetadata.getStamina(), cp, hp, dust, candy, iv);
     }
 }

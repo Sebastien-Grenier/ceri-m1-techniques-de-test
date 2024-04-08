@@ -13,7 +13,7 @@ public class Pokedex implements IPokedex {
 
     IPokemonMetadataProvider pokemonMetadataProvider;
 
-    public Pokedex(IPokemonFactory pokemonFactory, IPokemonMetadataProvider pokemonMetadataProvider) {
+    public Pokedex(final IPokemonFactory pokemonFactory, final IPokemonMetadataProvider pokemonMetadataProvider) {
         this.pokemonList = new ArrayList<Pokemon>();
         this.pokemonFactory = pokemonFactory;
         this.pokemonMetadataProvider = pokemonMetadataProvider;
@@ -30,29 +30,29 @@ public class Pokedex implements IPokedex {
     }
 
     /**
-     * Adds the given <tt>pokemon</tt> to this pokedex and returns
+     * Adds the given {@code pokemon} to this pokedex and returns
      * it unique index.
      *
      * @param pokemon Pokemon to add to this pokedex.
      * @return Index of this pokemon relative to this pokedex.
      */
     @Override
-    public int addPokemon(Pokemon pokemon) {
+    public int addPokemon(final Pokemon pokemon) {
         pokemonList.add(pokemon);
         return pokemonList.size() - 1;
     }
 
     /**
-     * Locates the pokemon identified by the given <tt>id</tt>.
+     * Locates the pokemon identified by the given {@code id}.
      *
      * @param id Unique pokedex relative identifier.
      * @return Pokemon denoted by the given identifier.
-     * @throws PokedexException If the given <tt>index</tt> is not valid.
+     * @throws PokedexException If the given {@code index} is not valid.
      */
     @Override
-    public Pokemon getPokemon(int id) throws PokedexException {
-        for(Pokemon buffer : pokemonList) {
-            if(buffer.getIndex() == id) {
+    public Pokemon getPokemon(final int id) throws PokedexException {
+        for (Pokemon buffer : pokemonList) {
+            if (buffer.getIndex() == id) {
                 return buffer;
             }
         }
@@ -71,25 +71,25 @@ public class Pokedex implements IPokedex {
 
     /**
      * Returns an unmodifiable list of all pokemons this pokedex contains.
-     * The list view will be sorted using the given <tt>order</tt>.
+     * The list view will be sorted using the given {@code order}.
      *
      * @param order Comparator instance used for sorting the created view.
      * @return Sorted unmodifiable list of all pokemons.
      */
     @Override
-    public List<Pokemon> getPokemons(Comparator<Pokemon> order) {
+    public List<Pokemon> getPokemons(final Comparator<Pokemon> order) {
         List<Pokemon> sortedList = new ArrayList<>(pokemonList);
         sortedList.sort(order);
         return Collections.unmodifiableList(sortedList);
     }
 
     @Override
-    public Pokemon createPokemon(int index, int cp, int hp, int dust, int candy) throws PokedexException {
+    public Pokemon createPokemon(final int index, final int cp, final int hp, final int dust, final int candy) throws PokedexException {
         return pokemonFactory.createPokemon(index, cp, hp, dust, candy);
     }
 
     @Override
-    public PokemonMetadata getPokemonMetadata(int index) throws PokedexException {
+    public PokemonMetadata getPokemonMetadata(final int index) throws PokedexException {
         return pokemonMetadataProvider.getPokemonMetadata(index);
     }
 }
