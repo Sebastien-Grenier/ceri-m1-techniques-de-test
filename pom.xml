@@ -86,7 +86,7 @@ http://maven.apache.org/maven-v4_0_0.xsd"
                     </execution>
                 </executions>
                 <configuration>
-                    <configLocation></configLocation>
+                    <configLocation>checkstyle.xml</configLocation>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
                 </configuration>
