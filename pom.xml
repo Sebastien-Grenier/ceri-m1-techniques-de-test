@@ -120,6 +120,7 @@ http://maven.apache.org/maven-v4_0_0.xsd"
                     <nohelp>true</nohelp>
                     <linksource>true</linksource>
                     <charset>UTF-8</charset>
+                    <reportOutputDirectory>${project.basedir}/apidocs</reportOutputDirectory>
                 </configuration>
                 <executions>
                     <execution>
